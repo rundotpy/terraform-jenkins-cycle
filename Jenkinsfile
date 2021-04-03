@@ -1,20 +1,21 @@
 pipeline {
     agent any
+
     stages {
-        stage("Terraform Initialize")
+        stage('Build') {
             steps {
-                echo 'Running Terraform init ... '
-
+                echo 'Building..'
             }
-         stage("Terraform plan")
+        }
+        stage('Test') {
             steps {
-                echo 'Running Terraform plan ... '
-
-            }    
-         stage("Terraform apply")
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
             steps {
-                echo 'Running Terraform apply ... '
-
-            }        
+                echo 'Deploying....'
+            }
+        }
     }
 }
