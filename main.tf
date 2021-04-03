@@ -5,6 +5,14 @@ terraform {
       version = "=2.46.0"
     }
   }
+  backend "azurerm" {
+    resource_group_name = ""
+    azurerm_storage_account = ""
+    container_name = ""
+    key =""
+    
+    
+  }
 }
 
 # Configure the Microsoft Azure Provider
