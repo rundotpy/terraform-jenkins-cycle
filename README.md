@@ -8,7 +8,7 @@
     - Branch source : https://github.com/rundotpy/terraform-jenkins-cycle.git
     - Dicsover branches with regex : ^main|development|feature$
 - Setup Githib webhook - http://rundotpyjenkins.eastus.cloudapp.azure.com:8080/github-webhook/
-
+- updated
 
 
 
