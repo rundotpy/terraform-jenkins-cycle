@@ -9,6 +9,7 @@
     - Dicsover branches with regex : ^main|development|feature$
 - Setup Githib webhook - http://rundotpyjenkins.eastus.cloudapp.azure.com:8080/github-webhook/
 - updated
+- updated 2
 
 
 
